@@ -38,6 +38,8 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
+
+//IMages
 let logo = document.getElementById("logo-img");
 logo.src = "img/logo.png";
 
@@ -46,3 +48,28 @@ mainImg.src = "img/header-img.png";
 
 const middleImg = document.querySelector("#middle-img");
 middleImg.src = "img/mid-page-accent.jpg";
+
+//Nav Bar
+
+const navBar = document.querySelectorAll("a");
+navBar[0].textContent = "Services";
+navBar[1].textContent = "Product";
+navBar[2].textContent = "Vision";
+navBar[3].textContent = "Features";
+navBar[4].textContent = "About";
+navBar[5].textContent = "Contact";
+
+console.log(navBar[2].textContent);
+
+// "nav": {
+//   "nav-item-1": "Services",
+//   "nav-item-2": "Product",
+//   "nav-item-3": "Vision",
+//   "nav-item-4": "Features",
+//   "nav-item-5": "About",
+//   "nav-item-6": "Contact",
+//   "img-src": "img/logo.png"
+// },
+
+//Main Content
+
