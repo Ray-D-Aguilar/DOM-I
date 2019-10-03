@@ -59,7 +59,7 @@ navBar[3].textContent = "Features";
 navBar[4].textContent = "About";
 navBar[5].textContent = "Contact";
 
-console.log(navBar[2].textContent);
+console.log(navBar[2].textContent); //Vision
 
 // "nav": {
 //   "nav-item-1": "Services",
@@ -72,4 +72,25 @@ console.log(navBar[2].textContent);
 // },
 
 //Main Content
+const headerOne = document.querySelector(".cta-text h1");
+headerOne.textContent = "DOM is Awesome";
+
+const btn = document.querySelector(".cta-text button");
+btn.textContent = "Get Started";
+
+const topHeader = document.querySelectorAll(".top-content .text-content h4");
+const topParagraph = document.querySelectorAll(".top-content .text-content p");
+console.log(topHeader);
+console.log(topParagraph);
+topHeader[0].textContent = "Features";
+topHeader[1].textContent = "About"
+
+
+topParagraph[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+topParagraph[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const bottomHeader = document.querySelectorAll(".bottom-content .text-content h4");
+const bottomPara = document.querySelectorAll(".bottom-content .text-content p");
+console.log(bottomHeader);
+console.log(bottomPara);
 
