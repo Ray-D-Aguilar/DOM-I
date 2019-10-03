@@ -102,3 +102,10 @@ bottomPara[0].textContent = "About content elementum magna eros, ac posuere elvi
 bottomPara[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 bottomPara[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis. "
 
+const contactHeader = document.querySelector(".contact h4")
+const contactParagraph = document.querySelectorAll(".contact p")
+
+contactHeader.textContent = "Contact";
+contactParagraph[0].textContent = "Address: 123 Way 456 Street Somewhere, USA";
+contactParagraph[1].textContent = "Phone Number: 1 (888) 888-8888";
+contactParagraph[2].textContent = "Email: sales@greatidea.io";
