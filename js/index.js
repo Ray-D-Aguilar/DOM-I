@@ -94,3 +94,11 @@ const bottomPara = document.querySelectorAll(".bottom-content .text-content p");
 console.log(bottomHeader);
 console.log(bottomPara);
 
+bottomHeader[0].textContent = "Services";
+bottomHeader[1].textContent = "Product";
+bottomHeader[2].textContent = "Vision";
+
+bottomPara[0].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+bottomPara[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+bottomPara[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis. "
+
