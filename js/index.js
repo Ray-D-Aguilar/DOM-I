@@ -109,3 +109,6 @@ contactHeader.textContent = "Contact";
 contactParagraph[0].textContent = "Address: 123 Way 456 Street Somewhere, USA";
 contactParagraph[1].textContent = "Phone Number: 1 (888) 888-8888";
 contactParagraph[2].textContent = "Email: sales@greatidea.io";
+
+const footer = document.querySelector("Footer p");
+footer.textContent = "Copyright Great Idea! 2018"
