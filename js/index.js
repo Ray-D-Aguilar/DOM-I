@@ -41,3 +41,8 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.src = "img/logo.png";
 
+const mainImg = document.querySelector("#cta-img");
+mainImg.src = "img/header-img.png";
+
+const middleImg = document.querySelector("#middle-img");
+middleImg.src = "img/mid-page-accent.jpg";
